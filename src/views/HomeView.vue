@@ -285,7 +285,7 @@
                     <!-- 使用した言語 -->
                     <div class="info-message" style="margin-top: 1.5rem">
                       <h4>
-                        勤務年数: 2年2ヶ月<br />
+                        勤務年数: 2年3ヶ月<br />
                         Position: トレーナー
                       </h4>
                     </div>
