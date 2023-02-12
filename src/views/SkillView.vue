@@ -9,9 +9,16 @@
       >
         言語
       </h3>
+      <h3 style="margin-top: 1rem">
+        ※リングの部分にカーソルを合わせてクリックしてください
+      </h3>
       <div class="first_row">
         <div class="skill_box" style="background-color: #eafdfc">
-          <div class="ring">HTML&CSS</div>
+          <div class="ring">
+            <router-link id="router" to="/html&css"
+              ><p style="z-index: 2; color: black">HTML&CSS</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box" style="background-color: #bfeaf5">
           <div class="ring">javaScript</div>

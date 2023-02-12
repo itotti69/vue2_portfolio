@@ -8,6 +8,7 @@ import GakutikaView from "../views/GakutikaView.vue";
 import AlbaitoView from "../views/AlbaitoView.vue";
 import PmappView from "../views/PmappView.vue";
 import NoPageError from "../views/NoPageError.vue";
+import HTMLCSSView from "../views/HTML&CSSView.vue";
 
 Vue.use(VueRouter);
 
@@ -47,7 +48,16 @@ const routes = [
     name: "PmappPage",
     component: PmappView,
   },
-  { path: "*", name: "Error", component: NoPageError }, //エラーページへのルーティング
+  {
+    path: "/html&css",
+    name: "HTML&CSSPage",
+    component: HTMLCSSView,
+  },
+  {
+    path: "*",
+    name: "Error",
+    component: NoPageError,
+  },
 ];
 
 const router = new VueRouter({
@@ -55,7 +65,10 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes,
   scrollBehavior() {
-    return { x: 0, y: 0 };
+    return {
+      x: 0,
+      y: 0,
+    };
   },
 });
 

@@ -434,7 +434,7 @@
             <div class="right-box right3">
               <div class="topic-sub-title">
                 <h1>音楽✖︎写真 ~思い出共有アルバムアプリ~</h1>
-                <h2>『Music & Photo Memories』</h2>
+                <h2 style="font-size: 1.2rem">『Music & Photo Memories』</h2>
               </div>
 
               <div class="topic-content-box">
