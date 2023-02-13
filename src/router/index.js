@@ -9,6 +9,9 @@ import AlbaitoView from "../views/AlbaitoView.vue";
 import PmappView from "../views/PmappView.vue";
 import NoPageError from "../views/NoPageError.vue";
 import HTMLCSSView from "../views/HTML&CSSView.vue";
+import PythonView from "../views/PythonView.vue";
+import JavascriptView from "../views/JavascriptView.vue";
+import PHPView from "../views/PHPView.vue";
 
 Vue.use(VueRouter);
 
@@ -52,6 +55,21 @@ const routes = [
     path: "/html&css",
     name: "HTML&CSSPage",
     component: HTMLCSSView,
+  },
+  {
+    path: "/python",
+    name: "PythonPage",
+    component: PythonView,
+  },
+  {
+    path: "/javascript",
+    name: "JavaScriptPage",
+    component: JavascriptView,
+  },
+  {
+    path: "/php",
+    name: "PHPPage",
+    component: PHPView,
   },
   {
     path: "*",

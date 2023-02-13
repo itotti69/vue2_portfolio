@@ -21,13 +21,25 @@
           </div>
         </div>
         <div class="skill_box" style="background-color: #bfeaf5">
-          <div class="ring">javaScript</div>
+          <div class="ring">
+            <router-link id="router" to="/javascript"
+              ><p style="z-index: 2; color: black">javaScript</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box" style="background-color: #91d8e4">
-          <div class="ring">Python</div>
+          <div class="ring">
+            <router-link id="router" to="/python"
+              ><p style="z-index: 2; color: black">Python</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box" style="background-color: #82aae3">
-          <div class="ring">PHP</div>
+          <div class="ring">
+            <router-link id="router" to="/php"
+              ><p style="z-index: 2; color: black">PHP</p></router-link
+            >
+          </div>
         </div>
       </div>
 
