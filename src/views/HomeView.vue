@@ -41,7 +41,7 @@
                 <div class="hexagon_inner3">
                   <!-- 六角形の中の画像 -->
                   <div class="hexagon_inner-image1 hexagon_text1">
-                    <a href="#">協調性</a>
+                    <router-link id="router" to="/gakutika">協調性</router-link>
                   </div>
                 </div>
               </div>
@@ -52,7 +52,7 @@
               <div class="hexagon_inner2">
                 <div class="hexagon_inner3">
                   <div class="hexagon_inner-image2 hexagon_text1">
-                    <a href="#">観察力</a>
+                    <router-link id="router" to="/albaito">観察力</router-link>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@
               <div class="hexagon_inner2">
                 <div class="hexagon_inner3">
                   <div class="hexagon_inner-image3 hexagon_text1">
-                    <a href="#">好奇心</a>
+                    <router-link id="router" to="/pmapp">好奇心</router-link>
                   </div>
                 </div>
               </div>
@@ -76,7 +76,7 @@
               <div class="hexagon_inner2">
                 <div class="hexagon_inner3">
                   <div class="hexagon_inner-image4 hexagon_text2">
-                    <a href="#">挑戦心</a>
+                    <router-link id="router" to="/ruby">挑戦心</router-link>
                   </div>
                 </div>
               </div>
@@ -87,7 +87,7 @@
               <div class="hexagon_inner2">
                 <div class="hexagon_inner3">
                   <div class="hexagon_inner-image5 hexagon_text2">
-                    <a href="#">向上心</a>
+                    <router-link id="router" to="/html&css">向上心</router-link>
                   </div>
                 </div>
               </div>
