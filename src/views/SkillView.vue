@@ -10,17 +10,20 @@
         言語
       </h3>
       <h3 style="margin-top: 1rem">
+        ※★があるものは詳細ページに飛ぶことができます。
         ※リングの部分にカーソルを合わせてクリックしてください
       </h3>
       <div class="first_row">
         <div class="skill_box" style="background-color: #eafdfc">
+          <p>★</p>
           <div class="ring">
             <router-link id="router" to="/html&css"
-              ><p style="z-index: 2; color: black">HTML&CSS</p></router-link
-            >
+              ><p style="z-index: 2; color: black">HTML&CSS</p>
+            </router-link>
           </div>
         </div>
         <div class="skill_box" style="background-color: #bfeaf5">
+          <p>★</p>
           <div class="ring">
             <router-link id="router" to="/javascript"
               ><p style="z-index: 2; color: black">javaScript</p></router-link
@@ -28,6 +31,7 @@
           </div>
         </div>
         <div class="skill_box" style="background-color: #91d8e4">
+          <p>★</p>
           <div class="ring">
             <router-link id="router" to="/python"
               ><p style="z-index: 2; color: black">Python</p></router-link
@@ -35,6 +39,7 @@
           </div>
         </div>
         <div class="skill_box" style="background-color: #82aae3">
+          <p>★</p>
           <div class="ring">
             <router-link id="router" to="/php"
               ><p style="z-index: 2; color: black">PHP</p></router-link
@@ -48,7 +53,12 @@
           <div class="ring" style="color: rgb(255, 255, 255)">Java</div>
         </div>
         <div class="skill_box" style="background-color: #008590">
-          <div class="ring" style="color: rgb(255, 255, 255)">Ruby</div>
+          <p>★</p>
+          <div class="ring" style="color: rgb(255, 255, 255)">
+            <router-link id="router" to="/ruby"
+              ><p style="z-index: 2">Ruby</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box" style="background-color: #00a495">
           <div class="ring" style="color: rgb(255, 255, 255)">Swift</div>
@@ -66,15 +76,27 @@
       </h3>
       <div class="third_row">
         <div class="skill_box" style="background-color: #ebc7e8">
-          <div class="ring">Django</div>
+          <p>★</p>
+          <div class="ring">
+            <router-link id="router" to="/django"
+              ><p style="z-index: 2; color: black">Django</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box" style="background-color: #bface0">
-          <div class="ring">ReactNative</div>
+          <p>★</p>
+          <div class="ring">
+            <router-link id="router" to="/reactnative"
+              ><p style="z-index: 2; color: black">ReactNative</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box" style="background-color: #a084ca">
+          <p style="color: white">★</p>
           <div class="ring" style="color: rgb(245, 245, 245)">OpenCV</div>
         </div>
         <div class="skill_box" style="background-color: #645caa">
+          <p style="color: white">★</p>
           <div class="ring" style="color: rgb(255, 255, 255)">OpenGL</div>
         </div>
       </div>
@@ -86,26 +108,48 @@
       </h3>
       <div class="forth_row">
         <div class="skill_box">
-          <div class="ring" style="color: rgb(215, 215, 215)">Unity</div>
+          <p style="color: white">★</p>
+          <div class="ring" style="color: rgb(215, 215, 215)">
+            <router-link id="router" to="/unity"
+              ><p style="z-index: 2">Unity</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box">
           <div class="ring" style="color: rgb(215, 215, 215)">PhotoShop</div>
         </div>
         <div class="skill_box">
-          <div class="ring" style="color: rgb(215, 215, 215)">Illustrator</div>
+          <p style="color: white">★</p>
+          <div class="ring" style="color: rgb(215, 215, 215)">
+            <router-link id="router" to="/illustrator"
+              ><p style="z-index: 2">Illustrator</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box">
-          <div class="ring" style="color: rgb(215, 215, 215)">Animate</div>
+          <p style="color: white">★</p>
+          <div class="ring" style="color: rgb(215, 215, 215)">
+            <router-link id="router" to="/animate"
+              ><p style="z-index: 2">Animate</p></router-link
+            >
+          </div>
         </div>
       </div>
       <div class="forth_row">
         <div class="skill_box">
-          <div class="ring" style="color: rgb(215, 215, 215)">PremirePro</div>
+          <p style="color: white">★</p>
+          <div class="ring" style="color: rgb(215, 215, 215)">
+            <router-link id="router" to="/premirepro"
+              ><p style="z-index: 2">PremirePro</p></router-link
+            >
+          </div>
         </div>
         <div class="skill_box">
+          <p style="color: white">★</p>
           <div class="ring" style="color: rgb(215, 215, 215)">AffterEffect</div>
         </div>
         <div class="skill_box">
+          <p style="color: white">★</p>
           <div class="ring" style="color: rgb(215, 215, 215)">Arduino</div>
         </div>
       </div>

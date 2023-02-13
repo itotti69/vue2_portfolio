@@ -12,6 +12,13 @@ import HTMLCSSView from "../views/HTML&CSSView.vue";
 import PythonView from "../views/PythonView.vue";
 import JavascriptView from "../views/JavascriptView.vue";
 import PHPView from "../views/PHPView.vue";
+import RubyView from "../views/RubyView.vue";
+import DjangoView from "../views/DjangoView.vue";
+import ReactNativeView from "../views/ReactNativeView.vue";
+import UnityView from "../views/UnityView.vue";
+import IllustratorView from "../views/IllustratorView.vue";
+import AnimateView from "../views/AnimateView.vue";
+import PremireproView from "../views/PremireproView.vue";
 
 Vue.use(VueRouter);
 
@@ -70,6 +77,41 @@ const routes = [
     path: "/php",
     name: "PHPPage",
     component: PHPView,
+  },
+  {
+    path: "/ruby",
+    name: "RubyPage",
+    component: RubyView,
+  },
+  {
+    path: "/django",
+    name: "DjangoPage",
+    component: DjangoView,
+  },
+  {
+    path: "/reactnative",
+    name: "ReactNativePage",
+    component: ReactNativeView,
+  },
+  {
+    path: "/unity",
+    name: "UnityPage",
+    component: UnityView,
+  },
+  {
+    path: "/illustrator",
+    name: "IllustratorPage",
+    component: IllustratorView,
+  },
+  {
+    path: "/animate",
+    name: "AnimatePage",
+    component: AnimateView,
+  },
+  {
+    path: "/premirepro",
+    name: "PremireproPage",
+    component: PremireproView,
   },
   {
     path: "*",
