@@ -37,6 +37,24 @@
           Photoshopをはじめ,Illustratorを使った作品制作の経験あり<br />
           PremierProやAfterEffectsを使ったMV制作の経験あり
         </p>
+        <ul class="icon">
+          <li>
+            <a
+              class="url"
+              style="color: black"
+              href="https://github.com/itotti69"
+              >Githubページはこちら</a
+            >
+          </li>
+          <li>
+            <a
+              class="url2"
+              style="color: black"
+              href="https://www.instagram.com/kazukki___260211/"
+              >Instagramはこちら</a
+            >
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -308,6 +326,26 @@ export default {
   padding: 0.4rem;
   margin-right: 1rem;
   border-radius: 0.9rem;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon li {
+  margin: 0 1rem;
+}
+
+.url:hover {
+  padding: 0.5rem;
+  background-color: rgba(66, 66, 219, 0.272);
+  border-radius: 0.4rem;
+}
+
+.url2:hover {
+  padding: 0.5rem;
+  background-color: rgba(219, 66, 173, 0.272);
+  border-radius: 0.4rem;
 }
 
 #univ {

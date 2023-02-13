@@ -92,11 +92,9 @@
           </div>
         </div>
         <div class="skill_box" style="background-color: #a084ca">
-          <p style="color: white">★</p>
           <div class="ring" style="color: rgb(245, 245, 245)">OpenCV</div>
         </div>
         <div class="skill_box" style="background-color: #645caa">
-          <p style="color: white">★</p>
           <div class="ring" style="color: rgb(255, 255, 255)">OpenGL</div>
         </div>
       </div>
@@ -145,12 +143,15 @@
           </div>
         </div>
         <div class="skill_box">
-          <p style="color: white">★</p>
           <div class="ring" style="color: rgb(215, 215, 215)">AffterEffect</div>
         </div>
         <div class="skill_box">
           <p style="color: white">★</p>
-          <div class="ring" style="color: rgb(215, 215, 215)">Arduino</div>
+          <div class="ring" style="color: rgb(215, 215, 215)">
+            <router-link id="router" to="/arduino"
+              ><p style="z-index: 2">Arduino</p></router-link
+            >
+          </div>
         </div>
       </div>
     </div>

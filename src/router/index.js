@@ -19,6 +19,7 @@ import UnityView from "../views/UnityView.vue";
 import IllustratorView from "../views/IllustratorView.vue";
 import AnimateView from "../views/AnimateView.vue";
 import PremireproView from "../views/PremireproView.vue";
+import ArduinoView from "../views/ArduinoView.vue";
 
 Vue.use(VueRouter);
 
@@ -112,6 +113,11 @@ const routes = [
     path: "/premirepro",
     name: "PremireproPage",
     component: PremireproView,
+  },
+  {
+    path: "/arduino",
+    name: "ArduinoPage",
+    component: ArduinoView,
   },
   {
     path: "*",
